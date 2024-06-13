@@ -8,6 +8,10 @@
         p {
             color: blue;
         }
+        p::first-letter {
+            color:rgb(205, 185, 5);
+            font-weight: bolder;
+        }
         p:hover {
             color:red;
         }
@@ -23,6 +27,16 @@
         ::placeholder{
             color: salmon;
         }
+        a {
+            color: blue;
+        }
+        a:visited {
+            color: blueviolet;
+        }
+        input:checked + label {
+        background-color: yellow;
+        font-weight: bolder;
+        }
     </style>
 </head>
 <body>
@@ -31,7 +45,18 @@
         <p>Platzi</p>
         <p>Master</p>
         <p>Lo mejor</p>
-        <input type="text" placeholder="Name">
+        <div>
+
+        </div>
     </div>
+    <input type="text" placeholder="Name">
+    <br>
+    <input type="checkbox" name="Pseudoelementos y pseudoclases" id="ch1">
+    <label for="ch1">:hover</label>
+    <input type="checkbox" name="Pseudoelementos y pseudoclases" id="ch2">
+    <label for="ch2">:active</label>
+    <input type="checkbox" name="Pseudoelementos y pseudoclases" id="ch3">
+    <label for="ch3">:focus</label>
+    <p>También podemos ver a las pseudoclases como estados de algún elemento (con el mouse encima, visitado, activo, etc.) y  escribimos desde CSS, por ejemplo, el ::after y el ::before nos puedes funcionar como divs, como su nombre lo dice, son elementos, pero no necesariamente están escritos desde el HTML.</p>
 </body>
 </html>
