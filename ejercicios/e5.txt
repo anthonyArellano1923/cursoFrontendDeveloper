@@ -1,0 +1,8 @@
+
+	1.	Quiero que los textos dentro de la clase highlight tengan un color de texto verde.
+	2.	Necesito que los textos dentro del ID unique tengan un color de texto rojo y un borde negro.
+	3.	Quiero que los textos normales tengan un color de texto azul.
+	4.	Necesito que la primera línea de todos los textos dentro de la clase highlight tenga un fondo amarillo.
+	5.	Quiero que la primera letra de todos los textos dentro del ID unique sea más grande y de color rojo.
+	6.	Necesito que después de cada texto dentro de la clase highlight aparezca el texto “ - fin del texto”.
+	7.	Quiero que el contenido de los textos dentro del ID unique comience con “Inicio: “ antes de cada texto.

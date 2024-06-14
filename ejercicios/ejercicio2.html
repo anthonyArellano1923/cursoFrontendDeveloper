@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 2</title>
+    <style>
+        p::first-line{
+            background-color: yellow; 
+            color: blue;
+        }
+        P::first-letter{
+            color: red;
+            font-size: larger;
+            border: 1px solid black;
+            margin-left: 5px;
+        }
+        p::after{
+            content:" - fin del párrafo";
+        }
+        p::before{
+            content: "Inicio: ";
+        }
+    </style>
+</head>
+<body>
+    <h1>Título principal</h1>
+    <p>Este es un párrafo para practicar pseudoelementos.</p>
+    <p>Otro párrafo para más práctica.
+        <br>
+        Linea 2 del parrafo.
+    </p>
+    <p>Otro párrafo para más práctica.
+        <br>
+        Linea 2 del parrafo.
+    </p>
+    <p>Otro párrafo para más práctica.
+        <br>
+        Linea 2 del parrafo.
+    </p>
+    <p>Otro párrafo para más práctica.</p>
+    <p>Otro párrafo para más práctica.</p>
+    
+</body>
+</html>

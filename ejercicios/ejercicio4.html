@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 4</title>
+    <style>
+        h1{
+            font-size: 40px;
+            text-align: center;
+        }
+        h2{
+            color: green;
+        }
+        p {
+            color: blue;
+        }
+        p::first-letter{
+            color: red;
+            font-size: x-large;
+        }
+        p::after{
+            content: " - fin del párrafo";
+        }
+        ul li:nth-child(1){
+            color: red;
+        }
+        div p{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título principal</h1>
+    <h2>Subtítulo</h2>
+    <p>Primer párrafo de ejemplo.</p>
+    <p>Segundo párrafo de ejemplo.</p>
+    <div>
+        <p>Párrafo dentro de un div</p>
+    </div>
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,7 @@
+1.	Quiero que todos los párrafos tengan un color de texto azul.
+	2.	Necesito que el primer elemento de la lista tenga un color de texto rojo.
+	3.	Quiero que todos los párrafos dentro de un div tengan un color de texto verde.
+	4.	Necesito que la primera letra de todos los párrafos sea más grande y de color rojo.
+	5.	Quiero que después de cada párrafo aparezca el texto “ - fin del párrafo”.
+	6.	Necesito que el título principal tenga un tamaño de fuente grande y esté centrado.
+	7.	Quiero que el subtítulo tenga un color de texto verde.ß

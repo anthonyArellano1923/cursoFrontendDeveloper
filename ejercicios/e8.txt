@@ -1,0 +1,7 @@
+	1.	Quiero que el título principal tenga un color de texto azul y esté centrado.
+	2.	Necesito que el subtítulo tenga un color de texto rojo y esté alineado a la izquierda.
+	3.	Quiero que los párrafos con la clase highlight tengan un color de texto verde y un fondo gris.
+	4.	Necesito que todos los párrafos normales tengan un color de texto negro y un borde de 1px sólido.
+	5.	Quiero que la primera letra de todos los párrafos tenga un tamaño de fuente de 2em y sea de color rojo.
+	6.	Necesito que el primer elemento de la lista tenga un color de texto azul y un fondo amarillo.
+	7.	Quiero que el tercer párrafo dentro de la clase container tenga un borde de 2px sólido verde y un margen de 10px.

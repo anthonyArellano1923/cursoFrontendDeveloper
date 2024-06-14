@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 3</title>
+    <style>
+        .highlight p {
+            color: green;
+            background-color: yellow;
+            padding: 5px;
+        }
+        #unique p{
+            color:red;
+            border: 2px solid black;
+            font-size: larger;
+        }
+        p {
+            color: blue;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Especificidad</h1>
+    <div class="highlight">
+        <p>Párrafo dentro de un div con clase highlight</p>
+        <div>Div dentro de clase highlight</div>
+    </div>
+    <p>Párrafo sin clase</p>
+    <div id="unique">
+        <p>Párrafo dentro de un div con ID unique</p>
+        <div>Div dentro de unique</div>
+    </div>
+    <p>Párrafo normal</p>
+</body>
+</html>

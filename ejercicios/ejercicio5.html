@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 5</title>
+    <style>
+        .highlight p{
+            color:green;
+        }
+        .highlight p::first-line{
+            background-color: yellow;
+        }
+        .highlight p::after{
+            content: " - fin del texto";
+        }
+        #unique p::first-letter{
+            font-size: larger;
+            color:orange;
+        }
+        #unique p{
+            color:red;
+            border: 1px solid black;
+        }
+        #unique p::before{
+            content: "Inicio: ";
+        }
+        p{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="highlight">
+        <h1>Párrafo dentro de un div con clase highlight</h1>
+        <p>Texto dentro de un div con clase highlight</p>
+    </div>
+    <div id="unique">
+        <h2>Párrafo dentro de un div con ID unique</h2>
+        <p>Texto dentro de un div con ID unique</p>
+    </div>
+    <p>Párrafo normal</p>
+</body>
+</html>

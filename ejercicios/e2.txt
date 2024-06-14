@@ -1,0 +1,7 @@
+	1.	Quiero que la primera línea de todos los párrafos tenga un fondo amarillo.
+	2.	Necesito que la primera letra de todos los párrafos sea más grande y de color rojo.
+	3.	Quiero que después de cada párrafo aparezca el texto “ - fin del párrafo”.
+	4.	Necesito que las primeras letras de todos los párrafos tengan un borde de 1px sólido negro.
+	5.	Quiero que la primera línea de todos los párrafos tenga un color de texto azul.
+	6.	Necesito que la primera letra de todos los párrafos tenga un margen izquierdo de 5px.
+	7.	Quiero que el contenido de los párrafos comience con “Inicio: “ antes de cada texto.

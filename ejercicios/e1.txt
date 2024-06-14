@@ -1,0 +1,7 @@
+	1.	Como cliente, quiero que todos los párrafos tengan un color de texto azul.
+	2.	Necesito que el primer elemento de la lista tenga un color de texto rojo.
+	3.	Quiero que todos los párrafos dentro de un div tengan un color de texto verde.
+	4.	Necesito que el segundo elemento de la lista tenga un borde de 1px sólido negro.
+	5.	Quiero que el tercer elemento de la lista tenga un fondo gris.
+	6.	Necesito que todos los elementos de la lista tengan un margen de 10px.
+	7.	Quiero que el título principal tenga un color de texto morado.

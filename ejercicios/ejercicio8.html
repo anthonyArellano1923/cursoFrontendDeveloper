@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 8</title>
+    <style>
+        h1{color: blue;text-align: center}
+        h2{color:red;text-align: left;}
+        .highlight{color: green;background-color: grey;}
+        p{color: black;border: 1px solid;}
+        p::first-letter{font-size: 2em;color: red;}
+        ul li:nth-child(1){color: blue;background-color: yellow;}
+        .container p{border: 2px solid green;margin: 10px;}
+    </style>
+</head>
+<body>
+    <h1 class="main-title">Título principal</h1>
+    <h2 class="sub-title">Subtítulo</h2>
+    <p class="highlight">Primer párrafo con clase highlight.</p>
+    <p>Segundo párrafo normal.</p>
+    <div class="container">
+        <p>Tercer párrafo dentro de un div con clase container.</p>
+    </div>
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+</body>
+</html>
