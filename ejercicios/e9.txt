@@ -1,0 +1,25 @@
+    1.	Ejercicio 1: Cambia el color de fondo de los elementos block a un color de tu elección.
+	2.	Ejercicio 2: Cambia el color del texto de los elementos inline a un color diferente.
+	3.	Ejercicio 3: Ajusta el ancho y la altura de los elementos inline-block para que sean de 200px por 100px.
+	4.	Ejercicio 4: Agrega un borde de 1px sólido y negro a los elementos block.
+	5.	Ejercicio 5: Cambia el color de fondo de los elementos inline-block a un color de tu elección.
+	6.	Ejercicio 6: Modifica el tamaño del texto de los elementos inline para que sea más grande.
+	7.	Ejercicio 7: Agrega padding de 10px a los elementos block.
+	8.	Ejercicio 8: Cambia el color de la primera letra de los párrafos (elementos block) a rojo.
+	9.	Ejercicio 9: Ajusta el margen de los elementos inline-block para que haya un espacio de 10px entre ellos.
+	10.	Ejercicio 10: Cambia la alineación del texto dentro de los elementos inline-block a centrado.
+	11.	Ejercicio 11: Cambia el color del texto del botón a blanco y su fondo a azul.
+	12.	Ejercicio 12: Ajusta el tamaño del texto del botón para que sea más grande.
+	13.	Ejercicio 13: Añade un borde redondeado al botón.
+	14.	Ejercicio 14: Cambia el color de fondo del input a un color claro.
+	15.	Ejercicio 15: Cambia el color del texto del input a un color oscuro.
+	16.	Ejercicio 16: Añade un padding de 5px al input.
+	17.	Ejercicio 17: Cambia el color del borde del input a gris.
+	18.	Ejercicio 18: Cambia el ancho del input para que ocupe el 50% del contenedor.
+	19.	Ejercicio 19: Cambia el color del texto de los elementos inline-block a morado.
+	20.	Ejercicio 20: Cambia la altura de los elementos block a 150px.
+	21.	Ejercicio 21: Ajusta el margen de los elementos inline para que haya un espacio de 5px entre ellos.
+	22.	Ejercicio 22: Cambia el color del fondo del contenedor (div) a un color de tu elección.
+	23.	Ejercicio 23: Añade un borde con estilo dashed al contenedor.
+	24.	Ejercicio 24: Cambia el tamaño de la fuente de los elementos h1 y h2.
+	25.	Ejercicio 25: Añade una sombra al texto de los elementos h1 y h2.

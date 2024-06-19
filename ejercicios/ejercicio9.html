@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Ejemplo</title>
+    <style>
+        p + span{font-weight: bolder;}
+        .block h1::before{content: "*";}
+        .block p::after{content: ".";}
+        .block p::first-letter{ 
+            color: red;
+            font-size: x-large;
+        }
+        /*.block p::first-line{color: blue;}*/
+        *::selection{background-color: yellow;}
+        button:hover{color: salmon; background-color: green;}
+        input:focus{border: 8px solid orange;color: magenta;}
+        a:visited{color: blueviolet;}
+        ol li:nth-child(odd){color: orange}
+        ol li:nth-child(even){color: magenta}
+        /*.block div p{color:yellow !important}*/
+        p span{background-color: grey;}
+        .inline-block.block{background-color: goldenrod;}/*especificidad (1,1,0)*/
+        #inputId.input1 {background-color: aquamarine;} /*especificidad (1,1,0)*/
+        #inputId.input2 {background-color: rgb(188, 98, 200);}
+        input[type="text"]{ /*especificidad (1,1,0)*/
+            background-color: yellow;
+        }
+        *{margin: 0px;}
+        .h2{background-color: greenyellow;}
+        .inline{color: rosybrown;}
+        #div1{border: 3px solid blueviolet;}
+        .block div p{color: rgb(191, 24, 121)}
+        h1~h2 {background-color: red;}
+        .block div > p {color:rgb(111, 61, 0)}
+        .block div > p {color:rgb(214, 66, 8) !important}
+        button[type="button"]{background-color: blue;font-style: oblique;}
+        div ~span{font-size: x-large;font-style: italic;}
+    </style>
+</head>
+<body>
+    <div class="block">
+        <h1 class="block">Título Principal 1</h1>
+        <p class="block">Este es un párrafo 1.</p>
+        <span class="inline">Este es un span 1.</span>
+        <span class="inline">Otro span 2.</span>
+        <div class="block">Div 1</div>
+        <div class="block">Div 2</div>
+        <p class="block">Párrafo 2 con <span class="inline">span 3</span> dentro.</p>
+        <div id="div1" class="block">
+            <h2 class="block h2">Título H2 1</h2>
+            <p class="block">Párrafo 1</p>
+        </div>
+        <button type="button" class="inline-block">Botón 1</button>
+        <button class="inline-block block">Botón 2</button>
+        <input id="inputId" class="inline input1" type="text" placeholder="Input 1">
+        <input id="inputId" class="inline input2" type="text" placeholder="Input 2">
+        <h1 class="block">Título Principal 2</h1>
+        <p class="block">Este es un párrafo 3.</p>
+        <span class="inline">Este es un span 4.</span>
+        <span class="inline">Otro span 5.</span>
+        <div class="block">Div 3</div>
+        <div class="block">Div 4</div>
+        <p class="block">Párrafo 4 con <span class="inline">span 6</span> dentro.</p>
+        <ol>
+            <li>Lista 1</li>
+            <li>Lista 2</li>
+            <li>Lista 3</li>
+            <li>Lista 4</li>
+            <li>Lista 5</li>
+            <li>Lista 6</li>
+        </ol>
+        <p>Enlaces:
+            <a class="inline" href="https://www.instagram.com/">instagram</a>
+            <a class="inline" href="https://twitter.com/?lang=en">x</a>
+            <a class="inline" href="https://www.facebook.com/">facebook</a>
+        </p>
+        <div class="block">
+            <h2 class="block h2">Título H2 2</h2>
+            <p class="block">Párrafo 2</p>
+        </div>
+        <button type="button" class="inline-block">Botón 3</button>
+        <button class="inline-block block">Botón 4</button>
+        <input class="inline" type="text" placeholder="Input 3">
+        <input class="inline" type="text" placeholder="Input 4">
+        <h2>Título H2 hermano</h2>
+    </div>
+</body>
+</html>
